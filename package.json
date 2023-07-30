@@ -8,7 +8,7 @@
     "gpull": "clasp pull",
     "gpush": "clasp push",
     "push": "clasp push -w",
-    "dev": "parcel src/index.html --dist-dir ./server",
+    "dev": "parcel src/index.html --dist-dir ./",
     "tw": "npx tailwindcss -i ./src/styles/globals.css -o ./src/styles/tailwind.css --watch",
     "build": "parcel build src/index.html --dist-dir ./server && clasp push"
   },
